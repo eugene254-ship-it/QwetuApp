@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qwetu/views/splash_screen/splash_screen.dart';
-import 'consts/consts.dart';
+import 'package:qwetu/consts/consts.dart';
 
 void main() {
   runApp(const MyApp());
