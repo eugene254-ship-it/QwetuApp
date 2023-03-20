@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:qwetu/consts/consts.dart';
+import 'package:qwetu/views/auth_screen/login_screen.dart';
 import 'package:qwetu/widgets_common/applogo_widget.dart';
-
-import '../../consts/colors.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -12,6 +11,20 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+  // change screen method
+  changeScreen() {
+    Future.delayed(const Duration(seconds: 3), () {
+      //using getx
+      Get.to(() => const LoginScreen());
+    });
+  }
+
+  @override
+  void initState() {
+    changeScreen();
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
