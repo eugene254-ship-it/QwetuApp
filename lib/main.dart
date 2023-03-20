@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:qwetu/views/splash_screen/splash_screen.dart';
 import 'package:qwetu/consts/consts.dart';
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: appname,
       theme: ThemeData(
