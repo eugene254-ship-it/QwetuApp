@@ -1,4 +1,7 @@
 # qwetu
+e-commerce app using Flutter + Firebase as its Backend
+This project is currently under Development
+
 
 A new Flutter project.
 
