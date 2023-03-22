@@ -1,11 +1,11 @@
 import 'package:qwetu/consts/consts.dart';
 
-Widget featuredButton() {
+Widget featuredButton({String? title, icon}) {
   return Row(
     children: [
-      Image.asset(imgS1, width: 60, fit: BoxFit.fill),
+      Image.asset(icon, width: 60, fit: BoxFit.fill),
       10.widthBox,
-      womenDress.text.fontFamily(semibold).color(darkFontGrey).make(),
+      title!.text.fontFamily(semibold).color(darkFontGrey).make(),
     ],
   )
       .box

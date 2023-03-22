@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
 import 'package:qwetu/consts/consts.dart';
-import 'package:qwetu/consts/lists.dart';
 import 'package:qwetu/views/auth_screen/signup_screen.dart';
 import 'package:qwetu/views/home_screen/home.dart';
 import 'package:qwetu/widgets_common/applogo_widget.dart';
